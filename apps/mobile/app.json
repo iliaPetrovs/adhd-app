@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "ADHD Planner",
+    "slug": "adhd-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "adhd-planner",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.adhdplanner.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.adhdplanner.app"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export { EnergyBadge } from './EnergyBadge';

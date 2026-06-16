@@ -1,0 +1,8 @@
+{
+  "name": "adhd-app",
+  "private": true,
+  "scripts": {
+    "mobile": "pnpm --filter mobile start",
+    "ui:storybook": "pnpm --filter @adhd-app/ui storybook"
+  }
+}

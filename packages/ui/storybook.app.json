@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "UI Storybook",
+    "slug": "adhd-ui-storybook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.adhdplanner.storybook"
+    },
+    "android": {
+      "package": "com.adhdplanner.storybook"
+    },
+    "plugins": [
+      "react-native-reanimated"
+    ]
+  }
+}
