@@ -6,12 +6,16 @@ const workspaceRoot = path.resolve(projectRoot, '../..');
 
 const config = getDefaultConfig(projectRoot);
 
-// Watch all workspace packages so Metro picks up symlinked sources
 config.watchFolders = [workspaceRoot];
 
 config.resolver.nodeModulesPaths = [
   path.resolve(projectRoot, 'node_modules'),
   path.resolve(workspaceRoot, 'node_modules'),
 ];
+
+// Explicitly map the workspace package so Metro doesn't need to follow symlinks
+config.resolver.extraNodeModules = {
+  '@adhd-app/ui': path.resolve(workspaceRoot, 'packages/ui/src'),
+};
 
 module.exports = config;

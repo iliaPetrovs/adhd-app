@@ -10,15 +10,18 @@
   },
   "dependencies": {
     "@adhd-app/ui": "workspace:*",
+    "@expo/metro-runtime": "^56.0.15",
     "expo": "~53.0.0",
     "expo-router": "~5.1.11",
     "expo-status-bar": "~2.2.0",
     "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.6",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-reanimated": "~3.17.5",
     "react-native-safe-area-context": "5.4.0",
-    "react-native-screens": "~4.11.1"
+    "react-native-screens": "~4.11.1",
+    "react-native-web": "^0.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
